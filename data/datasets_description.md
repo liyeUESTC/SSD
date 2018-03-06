@@ -18,8 +18,6 @@ COCO数据集由微软赞助，其对于图像的标注信息不仅有类别、�
 COCO数据集的开源使得近两三年来图像分割语义理解取得了巨大的进展，
 也几乎成为了图像语义理解算法性能评价的“标准”数据集
 
-## ilsvrc12
-
 ## PASCAL VOC（2G）
 PASCAL VOC挑战赛是视觉对象的分类识别和检测的一个基准测试，提供了检测算法和学习性能的标准图像注释数据集和标准的评估系统。
 PASCAL VOC图片集包括20个目录：人类；动物（鸟、猫、牛、狗、马、羊）；
@@ -36,8 +34,7 @@ PASCAL VOC挑战赛在2012年后便不再举办，但其数据集图像质量好
 
 
 
-## imagenet（1T）
-- 
+## ILSVRC（ImageNet Large-Scale Visual Recognition Challenge）（1T）
 MNIST将初学者领进了深度学习领域，而Imagenet数据集对深度学习的浪潮起了巨大的推动作用。
 深度学习领域大牛Hinton在2012年发表的论文《ImageNet Classification with Deep Convolutional Neural Networks》在计算机视觉领域带来了一场“革命”，此论文的工作正是基于Imagenet数据集。
 
