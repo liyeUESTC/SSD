@@ -48,5 +48,7 @@ confidence是对应分类的置信度。考虑到要分20类物体和1类背景�
 
 输出保留的default box，并结合location信息，确定目标的具体位置。
 
+ ![目标检测整体框架](SSD/train/QQ截图20180307222220.jpg)
+ 
   [参考资料ppt](https://docs.google.com/presentation/d/1rtfeV_VmdGdZD5ObVVpPDPIODSDxKnFSU0bsN_rgZXc/pub?start=false&loop=false&delayms=3000&slide=id.g179f601b72_0_106).
 
