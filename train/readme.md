@@ -23,4 +23,6 @@
 conv、conv、conv以及conv。根据每张特征图像素点的个数，分别确定default box个数，根据default box个数、localization信息以及confidence信息确定filter个数，利用filter处理特征图，每个default box分别对应一个location（4维）和一个confidence（1维），结合default box对应原图位置、location对原图的矫正信息以及confidence置信度三方面考虑，最后给出框的位置以及框中是哪种物体的置信度。然后每张特征图都可以找到对应在原图中的位置，再根据location信息，确定default box的最终位置信息。
 （2）
 （3）
-[参考资料]（https://docs.google.com/presentation/d/1rtfeV_VmdGdZD5ObVVpPDPIODSDxKnFSU0bsN_rgZXc/pub?start=false&loop=false&delayms=3000&slide=id.g179f601b72_0_106）.
+
+  [参考资料ppt](https://docs.google.com/presentation/d/1rtfeV_VmdGdZD5ObVVpPDPIODSDxKnFSU0bsN_rgZXc/pub?start=false&loop=false&delayms=3000&slide=id.g179f601b72_0_106).
+
