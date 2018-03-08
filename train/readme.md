@@ -34,11 +34,11 @@ conv、conv、conv以及conv。如图figure1所示。
 
 - conv操作确定location
 
-每个default box对应1个4维的location矫正值（左上角和右下角坐标值），每个像素点有3个default box，所以每个像素点对应12个location矫正值。因此选取12个filter，生成特征图的大小为5*5*12，深度信息12分别代表3个default box的矫正值。
+每个default box对应1个4维的location矫正值（左上角和右下角坐标值），每个像素点有3个default box，所以每个像素点对应12个location矫正值。因此选取12个filter，生成特征图的大小为5 * 5 * 12，深度信息12分别代表3个default box的矫正值。
 
 - conv操作确定confidence
 
-confidence是对应分类的置信度。考虑到要分20类物体和1类背景类，共21类，每个default box对应1个21维的confidence，每个像素点对应3个default box，所以选取63个filter，生成特征图的大小为5*5*63，深度信息63分别代表3个default box对应21个类别的置信度。
+confidence是对应分类的置信度。考虑到要分20类物体和1类背景类，共21类，每个default box对应1个21维的confidence，每个像素点对应3个default box，所以选取63个filter，生成特征图的大小为5 * 5 * 63，深度信息63分别代表3个default box对应21个类别的置信度。
 
 （3）多特征图目标合并及筛选
 
