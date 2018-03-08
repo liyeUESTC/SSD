@@ -20,7 +20,7 @@
 
 ## 模型
 
-![模型结构图](https://github.com/liyeUESTC/SSD/blob/ssd/train/QQ%E6%88%AA%E5%9B%BE20180307222337.jpg)
+![模型结构图](https://github.com/liyeUESTC/SSD/blob/ssd/train/%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%84.png)
 
 
 ## 测试阶段
