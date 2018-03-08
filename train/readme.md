@@ -27,6 +27,8 @@
 
 ## 模型
 
+![标准网络结构](https://github.com/liyeUESTC/SSD/blob/ssd/train/%E6%A0%87%E5%87%86%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B.png)
+
 ![模型结构图](https://github.com/liyeUESTC/SSD/blob/ssd/train/%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%84.png)
 
 
