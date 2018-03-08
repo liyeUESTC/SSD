@@ -27,6 +27,10 @@
 
 ## 模型
 
++ SSD网络结构在VGG16网络结构的基础上进行修改。最终的网络结构为：con1-1 -> conv1-2 -> conv2-1 -> conv2-2 -> conv3-1 -> conv3-2 -> conv3-3
+-> conv4-1 -> conv4-2 -> conv4-3 -> conv5-1 -> conv5-2 -> conv5-3(512) -> conv6 -> conv7 -> conv6-1 -> conv6-2 -> conv7-1 -> conv7-2
+-> conv8-1 -> conv8-2 -> conv9-1 -> conv9-2  
+
 ![标准网络结构](https://github.com/liyeUESTC/SSD/blob/ssd/train/%E6%A0%87%E5%87%86%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B.png)
 
 ![模型结构图](https://github.com/liyeUESTC/SSD/blob/ssd/train/%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%84.png)
@@ -38,8 +42,8 @@
 
 （1）提取特征
 
-输入一张图片，利用卷积提取特征，在提取特征过程中分别对6个输出结果进行目标检测，VGG-16（conv4_3）、fc7、
-conv、conv、conv以及conv。如图figure1所示。
+输入一张图片，利用卷积提取特征，在提取特征过程中分别对6个输出结果进行目标检测，conv4_3（4）、fc7（6）、
+conv6-2（6）、conv7-2（6）、conv8-2（4）以及conv9-2（4）。如图figure1所示。
 
  ![目标检测整体框架](https://github.com/liyeUESTC/SSD/blob/ssd/train/QQ%E6%88%AA%E5%9B%BE20180307222337.jpg)
 
