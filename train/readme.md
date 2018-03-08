@@ -9,12 +9,18 @@
 
 （3）训练数据处理
 
++ 正样本获取
+
++ 负样本获取
+
+
 
 （4）处理结果
 
 
 ## 模型
 
+![模型结构图](https://github.com/liyeUESTC/SSD/blob/ssd/train/QQ%E6%88%AA%E5%9B%BE20180307222337.jpg)
 
 
 ## 测试阶段
