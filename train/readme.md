@@ -15,15 +15,15 @@
 
 （3）训练数据处理
 
-+ 正样本获取
-
 ** 遵循一定挑选机制，先挑选正样本，按照正负样本1：3的比例，继而挑选负样本**
 
-1. 
++ 正样本获取
 
-2.
+1. 针对每一个ground truth box找到距离它最近的default box作为正样本。
 
-3.
+2. 计算每个default box和ground truth box的IOU，挑选IOU > 0.5的default box作为正样本。
+
+3. 分别计算
 
 
 + 负样本获取
