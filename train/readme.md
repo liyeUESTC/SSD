@@ -1,5 +1,9 @@
 # readme  训练笔记
 
+## 目标检测方法性能对比
+
+ ![目标检测整体框架](https://github.com/liyeUESTC/SSD/blob/ssd/train/%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%96%B9%E6%B3%95%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94.png)
+
 ## 数据准备
 （1）SSD利用VOC07和VOC12对模型进行训练
 
