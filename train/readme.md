@@ -25,11 +25,21 @@
 
 2. 计算每个default box和ground truth box的IOU，挑选IOU > 0.5的default box作为正样本。
 
-3. 分别计算
+3. 把1和2采集的正样本组成正样本集P。根据前向prediction loss从大到小的顺序将default box进行排序，选择前M个default box。
+集合a是集合P和集合M的交集。集合a作为最终的正样本集。
 
 
 + 负样本获取
 
+1. （集合M-集合a）作为最终的负样本集。
+
+问题：
+
+（1）集合a是否会成为空集？
+
+（2）正负样本的比例如何控制在1：3？
+
+（3）一张图中有多目标，前向prediction loss该如何计算？
 
 
 （4）处理结果
