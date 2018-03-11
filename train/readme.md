@@ -17,6 +17,8 @@
 
 ** 遵循一定挑选机制，先挑选正样本，按照正负样本1：3的比例，继而挑选负样本**
 
+ ![正负样本筛选](https://github.com/liyeUESTC/SSD/blob/ssd/train/%E6%AD%A3%E8%B4%9F%E6%A0%B7%E6%9C%AC%E7%AD%9B%E9%80%89.jpg)
+
 + 正样本获取
 
 1. 针对每一个ground truth box找到距离它最近的default box作为正样本。
